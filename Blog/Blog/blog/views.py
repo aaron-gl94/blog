@@ -5,3 +5,6 @@ class Blog(View):
 	def get(self,request):
 		template_name = 'blog.html'
 		return render (request,template_name)
+
+
+
